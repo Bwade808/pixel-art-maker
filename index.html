@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brandon's Pixel Art Maker</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        header h1 {
+            text-align: center;
+            margin-top: 50px;
+            color:rgb(150, 172, 191);
+            font-size: 40px;
+        }
+
+        body .outerDiv {
+            margin: auto;
+            height: 700px;
+            width: 1000px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color:rgb(23, 82, 134);
+            margin-top: 50px;
+        }
+
+        body .pixelDiv {
+            margin: auto;
+            height: 503.5px;
+            width: 946px;
+            /* border: 1px solid black; */
+            /* border-radius: 15px; */
+            background-color:rgb(150, 172, 191);
+            margin-top: 20px;
+        }
+
+        body .colorPaletteDiv {
+            margin: auto;
+            height: 130px;
+            width: 950px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color:rgb(150, 172, 191);
+            margin-top: 20px;
+        }
+
+        body .black {
+            height: 40px;
+            width: 40px;
+            background-color: black;
+            border: 3px solid black;
+            border-radius: 40px;
+            float:left;
+            margin-left:25px;
+            margin-top: 42px;
+        }
+
+        body .green {
+            height: 40px;
+            width: 40px;
+            background-color: rgb(13, 94, 35);
+            border: 3px solid black;
+            border-radius: 40px;
+            float:left;
+            margin-left:25px;
+            margin-top: 42px;
+        }
+
+        body .red {
+            height: 40px;
+            width: 40px;
+            background-color: rgb(135, 22, 12);
+            border: 3px solid black;
+            border-radius: 40px;
+            float:left;
+            margin-left:25px;
+            margin-top: 42px;
+        }
+
+        body .blue {
+            height: 40px;
+            width: 40px;
+            background-color: rgb(19, 10, 182);
+            border: 3px solid black;
+            border-radius: 40px;
+            float:left;
+            margin-left:25px;
+            margin-top: 42px;
+        }
+
+        body .erase {
+            height: 40px;
+            width: 80px;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 10px;
+            float:left;
+            margin-left:25px;
+            margin-top: 42px;      
+        }
+
+        body .erase p {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        body .pixel {
+            position: flex;
+            width: 9px;
+            float: left;
+            height: 9px;
+            background-color: rgb(177, 170, 170);
+            border: .5px solid gray;
+        }
+      
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PIXEL ART MAKER PROJECT</h1>
+    </header>
+    <div class="outerDiv" id="outerDiv">
+        <div class="pixelDiv">
+
+        </div>
+
+        <div class="colorPaletteDiv" id="outerDiv">
+
+            <div class="black">
+
+            </div>
+            <div class="green">
+
+            </div>
+            <div class="red">
+
+            </div>
+            <div class="blue">
+
+            </div>
+        
+            <div class="erase">
+                <p>Erase</p>
+            </div>
+
+            
+
+        </div>
+    </div>
+     
+    <script defer src="index.js"></script>
+</body>
+
+
+
+</html>
+
+
+
+
+
+<!-- COLOR PICKER SYNTAX FROM W3SCHOOLS
+            <form action="/action_page.php">
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            
+            </form> -->
